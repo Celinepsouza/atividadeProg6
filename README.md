@@ -1,8 +1,8 @@
-# atividadeProg6
+# Diagrama Entidade-Relacionamento do Projeto - Planilha "PlanilhaLimpaFinal_PN"
 
-### Com base nos dados identificados pelo grupo e disponibilizados na tabela "PlanilhaLimpaFinal_PN", localizada no Google Drive, foi possível modelar o diagrama entidade-relacionamento (ER) para representar a estrutura dos dados mestres. As principais entidades estão relacionadas à gestão de clientes, fornecedores, endereços, informações fiscais e dados bancários. Para traduzir essa estrutura em SQL, o seguinte script foi criado:
+Com base nos dados identificados pelo grupo e disponibilizados na tabela "PlanilhaLimpaFinal_PN", o diagrama entidade-relacionamento foi modelado da seguinte forma:
 
-
+```sql
 -- Tabela principal: Entidades (Clientes/Fornecedores)
 CREATE TABLE OCRD (
     CardCode VARCHAR(10) PRIMARY KEY,   -- Código único da entidade
